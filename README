@@ -1,0 +1,24 @@
+Locale Reloader
+==============
+
+This is just a simple plugin created to Rails >= 2.2, that allow you to easily
+reload your locales without restart all the rails instances. This is easy as
+follows:
+
+Example
+=======
+
+With your rails application started (this is more efective in production mode,
+since your locales are automaticaly reloaded in development), and the locale
+reloader plugin loaded, just type:
+
+rake locales:reload
+
+You'll see the status of the reload like this:
+
+$ rake locales:reload
+(in /home/chjunior/workspace/test)
+Reloading 5179          OK
+
+Copyright (c) 2008 Carlos Júnior <carlos@milk-it.net>, released under the MIT
+license
