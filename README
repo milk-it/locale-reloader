@@ -5,6 +5,17 @@ This is just a simple plugin created to Rails >= 2.2, that allow you to easily
 reload your locales without restart all the rails instances. This is easy as
 follows:
 
+Install
+=======
+
+ruby script/console git://github.com/xjunior/locale-reloader.git
+
+Requirements
+============
+
+ * Rails >= 2.2
+ * UNIX based system (yeah, but who uses windows for production, right?)
+
 Example
 =======
 
